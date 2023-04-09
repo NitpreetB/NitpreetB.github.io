@@ -1,0 +1,155 @@
+body {
+  font-family: 'Montserrat';
+  padding: 9em;
+ 
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100%;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+  font-size: 5em;
+  width: 100%;
+  color: Black;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.4em;
+  width: 100%;
+  color: black;
+  line-height: 5em;
+  text-align: center;
+  padding: 2pt;
+
+}
+
+h3 {
+  font-size: 4.3em;
+  width: 100%;
+  color: Black;
+  line-height: 1em;
+  font-weight: bold;
+  text-align: left;
+}
+h4{
+  float: left;
+  width: 100%;
+  color: Black;
+  transform: translate(-50%, -50%);
+}
+
+
+button {
+  background: none;
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.7em;
+  padding: .5em 1em;
+  cursor: pointer;
+  float:right; 
+  
+}
+
+button1 {
+  background: none;
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.7em;
+  padding: .5em 1em;
+  cursor: pointer;
+  float:left; 
+  
+}
+
+
+
+.panel {
+  position: relative;
+  height: 100%;
+  bottom: 100%;
+  background: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+}
+
+.img-fluid {
+  top: 50%;
+  width: 115%;
+}
+
+.panel p {
+  top: 100%;
+  font-size: 1.9em;
+  text-align: left;
+  width: 60%;
+  
+}
+
+.panel .box {
+  position: fixed;
+  border: 5px solid lightgray;
+  width: 100%;
+  height: 15%;
+  left: 0%;
+  right: 0%;
+  top: 28%;
+  z-index: -1;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.center {
+  position: relative;
+  display:block;
+  margin-left: 75%;
+  width: 20%;
+  border-radius: 45%;
+  margin-top: -18%;
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
+
+
+}
+.center1 {
+  position: relative;
+  display:block;
+  margin-left: 55%;
+  width: 25;
+  border-radius: 45%;
+  margin-top: -18%;
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
+
+}
+.center2 {
+  position: relative;
+  display:block;
+  margin-left: 75%;
+  width: 25%;
+  border-radius: 45%;
+  margin-top: -18%;
+  -webkit-transform: translateY(-200px);
+  transform: translateY(-200px);
+}
+/*# sourceMappingURL=main.css.map */
