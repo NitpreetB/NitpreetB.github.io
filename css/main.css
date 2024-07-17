@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-size: 4.3em;
+  font-size: 1em;
   width: 100%;
   color: Black;
   line-height: 1em;
@@ -125,7 +125,7 @@ button1 {
   margin-left: 75%;
   width: 20%;
   border-radius: 45%;
-  margin-top: -18%;
+  margin-top: 5%;
   -webkit-transform: translateY(-200px);
   transform: translateY(-200px);
 
